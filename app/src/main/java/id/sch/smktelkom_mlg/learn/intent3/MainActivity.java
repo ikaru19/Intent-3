@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public void capturePhoto() {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (intent.resolveActivity(getPackageManager()) != null)
